@@ -1,8 +1,10 @@
 <resources>
-    <string-array name="Categorías">
+        <string name="app_name">Formulario</string>
+    <string-array name="Categorias">
         <item>Selecciona una categoría</item>
         <item>Deportes</item>
         <item>Música</item>
         <item>Cine</item>
     </string-array>
 </resources>
+
