@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="Categorías">
+        <item>Selecciona una categoría</item>
+        <item>Deportes</item>
+        <item>Música</item>
+        <item>Cine</item>
+    </string-array>
+</resources>
