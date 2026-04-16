@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(categoria.equals("Deportes")){
             intent = new Intent(MainActivity.this, DeportesActivity.class);
-        }else if(categoria.equals("Música")){
+        }else if(categoria.equals("Musica")){
             intent = new Intent(MainActivity.this, MusicaActivity.class);
         }else{
             intent = new Intent(MainActivity.this, CineActivity.class);

@@ -25,7 +25,7 @@ public class MusicaActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                SharedPreferences preferences = getSharedPreferences("MiPreferencia", MODE_PRIVATE);
+                SharedPreferences preferences = getSharedPreferences(MainActivity.dataUserCache, MODE_PRIVATE);
                 SharedPreferences.Editor editor = preferences.edit();
 
                 editor.clear();
